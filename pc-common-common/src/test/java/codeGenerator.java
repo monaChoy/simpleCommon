@@ -11,11 +11,11 @@ import java.util.Collections;
 
 public class codeGenerator {
     //数据库信息
-    private static final String URL = "jdbc:mysql://127.0.0.1:5432/test";
-    private static final String DB_USER_NAME = "postgres";
+    private static final String URL = "jdbc:mysql://127.0.0.1:7890/common_frame";
+    private static final String DB_USER_NAME = "comuser";
     private static final String DB_PASSWORD = "123456";
     //作者
-    private static final String AUTHOR = "";
+    private static final String AUTHOR = "caiwenxiao";
     private static final String DIR = "";
     private static final String PACKAGE_STR = "test";
 
@@ -61,7 +61,7 @@ public class codeGenerator {
                                 //去掉service接口开头的字母I
                                 .serviceBuilder().formatServiceFileName("%sService")
                                 //以RESTful风格生成controller
-                                .controllerBuilder().enableRestStyle()
+                                .controllerBuilder().enableRestStyle().controllerBuilder()
                                 //数据库字段转实体属性风格--驼峰
                                 .entityBuilder().columnNaming(NamingStrategy.underline_to_camel)
                                 // 设置过滤表前缀
