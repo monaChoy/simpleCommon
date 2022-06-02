@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.generator.keywords.MySqlKeyWordsHandler;
 
 import java.util.Collections;
 
-public class codeGenerator {
+public class CodeGenerator {
     //数据库信息
     private static final String URL = "jdbc:mysql://127.0.0.1:7890/common_frame";
     private static final String DB_USER_NAME = "comuser";
