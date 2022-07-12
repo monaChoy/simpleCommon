@@ -18,7 +18,7 @@
     </properties>
     <repositories>
         <repository>
-            <id>alimaven</id>
+            <id>alinexus</id>
             <name>aliyun maven</name>
             <url>http://maven.aliyun.com/nexus/content/groups/public</url>
             <releases>
@@ -62,6 +62,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-devtools</artifactId>
+                <version>2.6.8</version>
                 <scope>runtime</scope>
                 <optional>true</optional>
             </dependency>
