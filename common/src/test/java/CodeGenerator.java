@@ -6,18 +6,17 @@ import com.baomidou.mybatisplus.generator.config.querys.MySqlQuery;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 import com.baomidou.mybatisplus.generator.keywords.MySqlKeyWordsHandler;
-import org.junit.platform.commons.util.StringUtils;
 
 import java.util.Collections;
 
 public class CodeGenerator {
     //数据库信息
-    private static final String URL = "jdbc:mysql://127.0.0.1:7890/common_frame";
-    private static final String DB_USER_NAME = "comuser";
-    private static final String DB_PASSWORD = "123456";
+    private static final String URL = "jdbc:mysql://192.168.0.57:53306/common";
+    private static final String DB_USER_NAME = "root";
+    private static final String DB_PASSWORD = "LjF6xzpowcm";
     //作者
     private static final String AUTHOR = "caiwenxiao";
-    private static final String DIR = "";
+    private static final String DIR = "D:/testSpace";
     private static final String PACKAGE_STR = "test";
 
     private static final String MODULE_NAME="";
